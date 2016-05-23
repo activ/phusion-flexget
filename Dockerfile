@@ -66,7 +66,7 @@ RUN apt-get remove -qq --force-yes build-essential checkinstall && \
 
 
 RUN	pip install flexget && \
-    pip install transmission-rpc && \ 
+    pip install transmissionrpc && \ 
     ln -sf /config /root/.flexget
     
 VOLUME /config
